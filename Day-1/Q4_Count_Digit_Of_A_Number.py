@@ -1,7 +1,5 @@
-print("Count of Digits in a Number"
-      "\nEnter a number: ", end=""
-      )
-num = int(input())
+print("Count of Digits in a Number")
+num = int(input("enter a number: "))
 count = 0
 while num != 0:
     num //= 10
