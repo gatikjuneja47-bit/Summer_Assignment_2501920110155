@@ -1,0 +1,10 @@
+print("Merging Two Sorted Arrays")
+import numpy as np
+n1 = int(input("Enter the size of first array: "))
+arr1 = np.array([int(input(f"Enter element {i+1}: ")) for i in range(n1)])
+arr1.sort()  
+n2 = int(input("Enter the size of second array: "))
+arr2 = np.array([int(input(f"Enter element {i+1}: ")) for i in range(n2)])
+arr2.sort()  
+merged_array = np.concatenate((arr1, arr2))
+print("Merged array:", merged_array)
